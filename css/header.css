@@ -1,0 +1,23 @@
+.header {
+    margin-bottom: 24px;
+    border-bottom: 2px solid #d39a5c;
+    padding-bottom: 16px;
+}
+
+.header__title {
+    margin-bottom: 12px;
+}
+
+.header__remove-btn {
+    background: #985618;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.header__remove-btn:hover {
+    background-color: #c16e25;
+}

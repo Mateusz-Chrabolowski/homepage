@@ -1,0 +1,9 @@
+.footer {
+    padding-top: 12px;
+    margin-top: 24px;
+    border-top: 1px solid #ddd;
+}
+
+.footer__text {
+    color: #555;
+}

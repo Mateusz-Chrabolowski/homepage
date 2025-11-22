@@ -1,0 +1,38 @@
+.section {
+    margin-bottom: 32px;
+    padding: 16px 18px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    background-color: #faf7f4;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+.section__title {
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.section__title--about { background-color: #532e0c; }
+.section__title--more { background-color: #000; }
+.section__title--movies { background-color: #985618; }
+
+.section__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.section__image {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);
+}
+
+.section__box {
+    background: #e7e2e2;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
